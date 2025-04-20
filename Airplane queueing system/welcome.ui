@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Welcome</class>
+ <widget class="QDialog" name="Welcome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>825</width>
+    <height>544</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgba(247, 93, 0, 255));</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>50</y>
+     <width>391</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>BM Hanna 11yrs Old</family>
+     <pointsize>50</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Plane Simulator</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>450</y>
+     <width>661</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Chalkboard</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>By: Aly Elaswad 900225517-02      Omar Mohamed 900222116-02      Ahmed Abdeen 900225815-01</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_p">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>671</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>70</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgba(192, 206, 9, 255));
+font: 700 15pt &quot;SimSong&quot;;
+border-radius: 24px;
+
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+   </property>
+   <property name="text">
+    <string>Start Simulator</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
